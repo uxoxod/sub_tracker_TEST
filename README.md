@@ -45,6 +45,7 @@
 
 ---
 
+
 ## 🎯 학습 목표
 
 - [x] VS Code 개발 환경 세팅 (Claude Code, Copilot 연동)
@@ -69,11 +70,10 @@
 
 ---
 
-## 📌 앞으로 해 보고 싶은 것
+## 📌 결과물 페이지
 
-- [ ] 실습 결과를 **GitHub Pages**로 배포
-- [ ] 업무 자동화에 AI 도구 적용
-- [ ] 꾸준히 커밋하며 학습 기록 쌓기
+<img width="1902" height="865" alt="image" src="https://github.com/user-attachments/assets/565f7314-96d6-4340-9d86-711d440f1b5e" />
+<img width="1919" height="862" alt="image" src="https://github.com/user-attachments/assets/f33996f1-3e22-4c79-90f5-45073686b986" />
 
 ---
 
