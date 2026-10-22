@@ -73,7 +73,8 @@
 ## 📌 결과물 페이지
 
 <img width="1902" height="865" alt="image" src="https://github.com/user-attachments/assets/565f7314-96d6-4340-9d86-711d440f1b5e" />
-<img width="1900" height="858" alt="image" src="https://github.com/user-attachments/assets/c2ddb0d7-8c4f-4fa2-aa01-78d9c8df3519" />
+<img width="1900" height="858" alt="image" src="https://github.com/user-attachments/assets/c2ddb0d7-8c4f-4fa2-aa01-78d9c8df3519" /> <img width="1899" height="865" alt="image" src="https://github.com/user-attachments/assets/70b3125c-3036-4276-81e3-7aef0d9f238c" />
+
 
 ---
 
