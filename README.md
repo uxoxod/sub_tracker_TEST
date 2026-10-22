@@ -73,7 +73,7 @@
 ## 📌 결과물 페이지
 
 <img width="1902" height="865" alt="image" src="https://github.com/user-attachments/assets/565f7314-96d6-4340-9d86-711d440f1b5e" />
-<img width="1919" height="862" alt="image" src="https://github.com/user-attachments/assets/f33996f1-3e22-4c79-90f5-45073686b986" />
+<img width="1900" height="858" alt="image" src="https://github.com/user-attachments/assets/c2ddb0d7-8c4f-4fa2-aa01-78d9c8df3519" />
 
 ---
 
