@@ -81,7 +81,7 @@
 
 <div align="center">
 
-**🌱 Learning in public **
+**🌱 Learning in public**
 
 `2026.10.22 ~ 2026.10.23` · LG화학 K-뉴딜 아카데미
 
