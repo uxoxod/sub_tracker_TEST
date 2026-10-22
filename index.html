@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6fa">
+  <title>구독 관리</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/logic.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">MY MONEY, IN CONTROL</p>
+        <h1>구독 관리</h1>
+        <p class="header-copy">매달 나가는 구독료를 한눈에 확인해 보세요.</p>
+      </div>
+      <div class="header-mark" aria-hidden="true">₩</div>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="구독 요약">
+        <article class="summary-card summary-primary">
+          <p>월 구독료</p>
+          <strong id="monthly-total">0원</strong>
+          <span>월 기준 합계</span>
+        </article>
+        <article class="summary-card">
+          <p>연간 구독료</p>
+          <strong id="yearly-total">0원</strong>
+          <span>월 구독료 × 12개월</span>
+        </article>
+        <article class="summary-card">
+          <p>이번 주 결제 예정</p>
+          <strong id="upcoming-total">0원</strong>
+          <span id="upcoming-caption">7일 이내 결제 0건</span>
+        </article>
+      </section>
+
+      <div class="content-grid">
+        <section class="panel subscriptions-panel" aria-labelledby="subscriptions-heading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">YOUR SUBSCRIPTIONS</p>
+              <h2 id="subscriptions-heading">구독 목록 <span id="subscription-count">0</span></h2>
+            </div>
+          </div>
+          <div id="subscription-list" class="subscription-list" aria-live="polite"></div>
+        </section>
+
+        <aside class="side-column">
+          <section class="panel category-panel" aria-labelledby="category-heading">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">SPENDING BREAKDOWN</p>
+                <h2 id="category-heading">카테고리별 비중</h2>
+              </div>
+            </div>
+            <div id="category-breakdown" class="category-breakdown"></div>
+          </section>
+
+          <section class="panel form-panel" aria-labelledby="form-heading">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">KEEP IT UPDATED</p>
+                <h2 id="form-heading">새 구독 추가</h2>
+              </div>
+            </div>
+            <form id="subscription-form">
+              <input id="subscription-id" type="hidden">
+              <label>
+                구독 이름
+                <input id="name" name="name" type="text" maxlength="50" placeholder="예: 음악 스트리밍" required>
+              </label>
+              <div class="form-row">
+                <label>
+                  금액
+                  <input id="amount" name="amount" type="number" min="1" step="1" placeholder="예: 10900" required>
+                </label>
+                <label>
+                  결제 주기
+                  <select id="cycle" name="cycle">
+                    <option value="monthly">매월</option>
+                    <option value="yearly">매년</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                다음 결제일
+                <input id="next-payment-date" name="nextPaymentDate" type="date" required>
+              </label>
+              <div class="form-row">
+                <label>
+                  카테고리
+                  <input id="category" name="category" type="text" maxlength="30" placeholder="예: 영상" required>
+                </label>
+                <label>
+                  결제 카드 <span class="optional">(선택)</span>
+                  <input id="card" name="card" type="text" maxlength="30" placeholder="예: 신한카드">
+                </label>
+              </div>
+              <p id="form-error" class="form-error" role="alert" hidden></p>
+              <div class="form-actions">
+                <button id="submit-button" class="button button-primary" type="submit">구독 추가</button>
+                <button id="cancel-edit" class="button button-secondary" type="button" hidden>취소</button>
+              </div>
+            </form>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer>구독 정보는 이 브라우저에 안전하게 저장됩니다.</footer>
+  </div>
+</body>
+</html>
